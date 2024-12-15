@@ -1,0 +1,19 @@
+{
+  "semi": true,
+  "doubleQuote": true,
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "endOfLine": "auto",
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^@core/(.*)$",
+    "^@shared/(.*)$",
+    "^@app/(.*)$",
+    "^@env/(.*)$",
+    "^@/(.*)$",
+    "^\\./(.*)$"
+  ],
+  "importOrderSeparation": false,
+  "importOrderSpecifiers": true,
+  "importOrderCaseInsensitive": false
+}
