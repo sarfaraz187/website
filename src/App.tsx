@@ -1,12 +1,7 @@
+import Button from "@src/Button";
 import "./App.css";
-import Button from "./Button";
 
-interface Props {
-  name: string;
-}
-
-function App({ name }: Props) {
-  console.log(name);
+function App() {
   return (
     <>
       <Button></Button>
