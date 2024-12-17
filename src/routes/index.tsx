@@ -1,4 +1,5 @@
 import RootLayout from "@src/app/layout/RootLayout";
+import About from "@src/app/pages/About";
 import Home from "@src/app/pages/Home";
 import PathConstants from "@src/routes/PathConstants";
 import { createBrowserRouter, RouteObject } from "react-router";
@@ -14,6 +15,11 @@ const routes: RouteObject[] = [
     index: true,
     path: PathConstants.home.root.path,
     element: <Home />,
+  },
+  {
+    index: true,
+    path: PathConstants.about.root.path,
+    element: <About />,
   },
 ];
 

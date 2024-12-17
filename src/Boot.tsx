@@ -1,5 +1,5 @@
 import IntlProvider from "@src/i18n/IntlProvider";
-import { lazy } from "react";
+import { lazy, StrictMode } from "react";
 
 const Boot = () => {
   const App = lazy(
@@ -18,9 +18,11 @@ const Boot = () => {
   );
 
   return (
-    <IntlProvider>
-      <App />
-    </IntlProvider>
+    <StrictMode>
+      <IntlProvider>
+        <App />
+      </IntlProvider>
+    </StrictMode>
   );
 };
 
