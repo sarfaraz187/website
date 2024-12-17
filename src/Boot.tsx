@@ -16,6 +16,7 @@ const Boot = () => {
         )
       )
   );
+
   return (
     <IntlProvider>
       <App />

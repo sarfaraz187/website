@@ -17,11 +17,11 @@ let intl: IntlShape | undefined;
 const loadMessages = (locale: string) => {
   switch (locale) {
     case "en":
-      return fetch("../../public/i18n/en.json");
+      return fetch("/i18n/en.json");
     case "de":
-      return fetch("../../public/i18n/de.json");
+      return fetch("/i18n/de.json");
     default:
-      return fetch("../../public/i18n/en.json");
+      return fetch("/i18n/en.json");
   }
 };
 

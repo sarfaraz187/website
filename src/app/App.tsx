@@ -1,8 +1,6 @@
-import useIntl from "@src/hooks/useIntl";
+import router from "@src/routes";
+import { RouterProvider } from "react-router";
 
-const App = () => {
-  const intl = useIntl();
-  return <div>{intl("title")}</div>;
-};
+const App = () => <RouterProvider router={router} />;
 
 export default App;
