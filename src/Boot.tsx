@@ -1,5 +1,7 @@
 import IntlProvider from "@src/i18n/IntlProvider";
+import { store } from "@src/store";
 import { lazy, StrictMode } from "react";
+import { Provider } from "react-redux";
 
 const Boot = () => {
   const App = lazy(
@@ -19,9 +21,11 @@ const Boot = () => {
 
   return (
     <StrictMode>
-      <IntlProvider>
-        <App />
-      </IntlProvider>
+      <Provider store={store}>
+        <IntlProvider>
+          <App />
+        </IntlProvider>
+      </Provider>
     </StrictMode>
   );
 };
