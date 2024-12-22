@@ -1,4 +1,4 @@
-import { Button } from "@src/components/ui/button";
+import { Button } from "@src/app/components/ui/button";
 import PathConstants from "@src/routes/PathConstants";
 import { Link } from "react-router";
 
