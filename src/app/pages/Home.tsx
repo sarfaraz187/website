@@ -1,3 +1,4 @@
+import { Button } from "@src/components/ui/button";
 import PathConstants from "@src/routes/PathConstants";
 import { Link } from "react-router";
 
@@ -9,6 +10,7 @@ const Home = () => {
   return (
     <div>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Button variant={"destructive"}>Error</Button>
       <h1>
         <Link to={PathConstants.about.root.path}>To About</Link>
       </h1>
