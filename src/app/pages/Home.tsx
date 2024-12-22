@@ -8,6 +8,7 @@ const Home = () => {
   ];
   return (
     <div>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <h1>
         <Link to={PathConstants.about.root.path}>To About</Link>
       </h1>
