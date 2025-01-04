@@ -1,5 +1,6 @@
 export type TInitialState = {
   theme: string;
+  lang: string;
 };
 
 export enum ETheme {

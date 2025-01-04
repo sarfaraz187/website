@@ -11,14 +11,19 @@ type Ti18nMessage =
   | Record<string, MessageFormatElement[]>
   | undefined;
 
+export enum ELanguages {
+  EN = "en",
+  DE = "de",
+}
+
 let cache: IntlCache | undefined;
 let intl: IntlShape | undefined;
 
 const loadMessages = (locale: string) => {
   switch (locale) {
-    case "en":
+    case ELanguages.EN:
       return fetch("/i18n/en.json");
-    case "de":
+    case ELanguages.DE:
       return fetch("/i18n/de.json");
     default:
       return fetch("/i18n/en.json");
@@ -36,8 +41,6 @@ export const initIntl = (locale: string, readyCallback: () => void) => {
 };
 
 export const getIntl = () => {
-  if (intl === undefined) {
-    throw new Error("Intl is not initialized");
-  }
+  if (intl === undefined) throw new Error("Intl is not initialized");
   return intl;
 };

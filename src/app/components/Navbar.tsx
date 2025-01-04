@@ -1,22 +1,25 @@
+import LanguageSwitcher from "@src/app/components/LanguageSwitcher";
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
 } from "@src/app/components/ui/navigation-menu";
+import useIntl from "@src/hooks/useIntl";
 import PathConstants from "@src/routes/PathConstants";
 import { useNavigate } from "react-router";
 
 const NavBar = () => {
   const navigate = useNavigate();
+  const intl = useIntl();
 
   const navLinks = [
     {
-      name: "About Me",
+      name: intl("about"),
       path: PathConstants.about.root.path,
     },
     {
-      name: "Resources",
+      name: intl("resources"),
       path: PathConstants.resources.root.path,
     },
   ];
@@ -30,17 +33,20 @@ const NavBar = () => {
       >
         <img src="/logo/mohammed.svg" alt="logo" />
       </div>
-      <NavigationMenu>
-        <NavigationMenuList>
-          {navLinks.map((navLink) => (
-            <NavigationMenuItem key={navLink.path}>
-              <NavigationMenuLink onClick={() => navigate(navLink.path)}>
-                {navLink.name}
-              </NavigationMenuLink>
-            </NavigationMenuItem>
-          ))}
-        </NavigationMenuList>
-      </NavigationMenu>
+      <div className="flex gap-4">
+        <NavigationMenu>
+          <NavigationMenuList>
+            {navLinks.map((navLink) => (
+              <NavigationMenuItem key={navLink.path}>
+                <NavigationMenuLink onClick={() => navigate(navLink.path)}>
+                  {navLink.name}
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+            ))}
+          </NavigationMenuList>
+        </NavigationMenu>
+        <LanguageSwitcher />
+      </div>
     </>
   );
 };

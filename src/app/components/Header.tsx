@@ -1,16 +1,13 @@
 import NavBar from "@src/app/components/Navbar";
 
-const Header = () => {
-  console.log("Header");
-  return (
+const Header = () => (
     <header
       role="banner"
-      className=" w-full flex justify-between px-[15%] my-[3%]"
+      className="w-full flex items-center justify-between px-[15%] my-[3%]"
     >
       <NavBar />
     </header>
   );
-};
 
 
 
