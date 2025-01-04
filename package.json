@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest --coverage"
+    "test": "vitest",
+    "coverage": "vitest --coverage --open"
   },
   "dependencies": {
     "@radix-ui/react-navigation-menu": "1.2.3",
