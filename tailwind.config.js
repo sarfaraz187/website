@@ -10,15 +10,12 @@ export default {
       xl: "1440px",
     },
     colors: {
-      blue: "#1fb6ff",
-      purple: "#7e5bef",
-      pink: "#ff49db",
-      orange: "#ff7849",
-      green: "#13ce66",
-      yellow: "#ffc82c",
-      "gray-dark": "#273444",
-      gray: "#8492a6",
-      "gray-light": "#d3dce6",
+      seaShell: "#fff7f3",
+      nightRider: "#332e2e",
+      teaGreen: "#d9ffb6",
+      pigPink: "#ffd3f3",
+      clearDay: "#e3fff8",
+      seaShell: "#fff7f3",
     },
     extend: {
       fontFamily: {

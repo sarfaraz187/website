@@ -1,5 +1,8 @@
 {
   "home": "Home",
   "about": "About Me",
-  "resources": "Resources"
+  "resources": "Resources",
+  
+  "home.title": "Internet is for everyone",
+  "home.subtitle": "By designing accessible experiences, you create a more inclusive world. On my blog, I share simple tips to make this vision a reality."
 }

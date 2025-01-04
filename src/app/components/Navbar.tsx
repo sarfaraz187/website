@@ -33,7 +33,7 @@ const NavBar = () => {
       >
         <img src="/logo/mohammed.svg" alt="logo" />
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-8">
         <NavigationMenu>
           <NavigationMenuList>
             {navLinks.map((navLink) => (
