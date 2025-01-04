@@ -20,11 +20,10 @@ export default {
       gray: "#8492a6",
       "gray-light": "#d3dce6",
     },
-    fontFamily: {
-      sans: ["Graphik", "sans-serif"],
-      serif: ["Merriweather", "serif"],
-    },
     extend: {
+      fontFamily: {
+        sans: ["Lato", "sans-serif"], // font-sans base class font
+      },
       spacing: {
         128: "32rem",
         144: "36rem",

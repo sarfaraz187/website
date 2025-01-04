@@ -20,7 +20,9 @@ const Header = () => {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <Link to="/docs">
-              <NavigationMenuLink>About Me</NavigationMenuLink>
+              <NavigationMenuLink className="font-lato">
+                About Me
+              </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
