@@ -2,7 +2,10 @@
   "home": "Home",
   "about": "About Me",
   "resources": "Resources",
-  
+
   "home.title": "Internet is for everyone",
-  "home.subtitle": "By designing accessible experiences, you create a more inclusive world. On my blog, I share simple tips to make this vision a reality."
+  "home.subtitle": "By designing accessible experiences, you create a more inclusive world. On my blog, I share simple tips to make this vision a reality.",
+
+  "about.greeting": "Hi, I'm Mohammed Sarfaraz",
+  "about.description": "I bring software ideas to life"
 }
