@@ -19,6 +19,12 @@ const PathConstants: TPathConstants = {
       label: "about",
     },
   },
+  resources: {
+    root: {
+      path: "/resources",
+      label: "resources",
+    },
+  },
 };
 
 export default PathConstants;
