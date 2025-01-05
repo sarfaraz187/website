@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   darkMode: ["class"],
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -15,7 +16,7 @@ export default {
       teaGreen: "#d9ffb6",
       pigPink: "#ffd3f3",
       clearDay: "#e3fff8",
-      seaShell: "#fff7f3",
+      white: "#ffffff",
     },
     extend: {
       fontFamily: {
