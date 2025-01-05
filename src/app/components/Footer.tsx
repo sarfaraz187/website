@@ -22,9 +22,7 @@ const Footer = () => {
         </div>
       </section>
       <section className="bg-nightRider">
-        <div>
-          
-        </div>
+        <div className="text-white">fasdf</div>
       </section>
     </footer>
   );
