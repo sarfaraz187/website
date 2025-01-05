@@ -1,4 +1,3 @@
-import { Button } from "@src/app/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -18,10 +17,10 @@ const LanguageSwitcher = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline">
+        <div className="flex gap-2 items-center cursor-pointer">
           <Globe className="w-4 h-4" />
           <span>{selectedLanguage.toUpperCase()}</span>
-        </Button>
+        </div>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuRadioGroup
