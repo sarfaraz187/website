@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       {/* Title Section */}
-      <section className="flex items-center justify-center bg-teaGreen py-[7rem]">
+      <section className="flex items-center justify-center bg-teaGreen py-[6rem]">
         <div className="max-w-3xl mx-auto text-center px-4">
           <h1 className="text-[4rem] font-bold leading-tight mb-8">
             {intl("home.title")}
@@ -19,12 +19,8 @@ const Home = () => {
           <div className="space-y-4 mb-8">
             <p className="text-xl text-gray-800">{intl("home.subtitle")}</p>
           </div>
-          <Button
-            variant="outline"
-            className="text-lg px-8 py-6 rounded-full border-2 border-black hover:bg-black hover:text-white transition-colors"
-          >
-            Start reading
-            <ArrowRight className="ml-2 h-5 w-5" />
+          <Button variant="primary">
+            Start reading <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </div>
       </section>
@@ -43,8 +39,7 @@ const Home = () => {
             {intl("about.description")}
           </p>
           <Button
-            variant="outline"
-            className="text-lg px-8 py-6 rounded-full border-2 border-black hover:bg-black hover:text-white transition-colors"
+            variant="primary"
             onClick={() => navigate(PathConstants.about.root.path)}
           >
             {intl("about")}

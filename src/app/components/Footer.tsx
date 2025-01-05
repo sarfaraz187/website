@@ -13,10 +13,7 @@ const Footer = () => {
           <h1 className="text-[6rem] font-bold">{intl("footer.shallWe")}</h1>
           <div className="align-center">
             <p className="text-lg mb-6">{intl("footer.description")}</p>
-            <Button
-              variant="outline"
-              className="text-lg px-8 py-6 rounded-full border-2 border-black hover:bg-black hover:text-white transition-colors"
-            >
+            <Button variant="primary">
               {intl("footer.emailMe")}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
@@ -24,7 +21,7 @@ const Footer = () => {
         </div>
       </section>
       <section className="px-[13%] py-12 bg-nightRider">
-        <div className="flex gap-5 justify-end">
+        <div className="flex gap-5 justify-end md:block">
           <Button
             variant="link"
             className="text-white"

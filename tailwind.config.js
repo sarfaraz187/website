@@ -17,6 +17,7 @@ export default {
       pigPink: "#ffd3f3",
       clearDay: "#e3fff8",
       white: "#ffffff",
+      black: "#000000",
     },
     extend: {
       fontFamily: {
