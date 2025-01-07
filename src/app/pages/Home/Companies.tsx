@@ -4,11 +4,11 @@ const Companies = () => {
   const intl = useIntl();
 
   return (
-    <section className="px-[15%] py-8 bg-white" role="companies section">
-      <h1 className="flex justify-center text-4xl font-bold text-nightRider">
+    <section className="px-[15%] py-14" role="companies section">
+      <h1 className="flex justify-center text-4xl font-bold text-nightRider pb-4">
         {intl("home.companies")}
       </h1>
-      <div className="grid grid-cols-4 gap-4 place-items-center my-8">
+      <div className="grid grid-cols-4 place-items-center my-3">
         <img
           src="/logo/sevencs.jpeg"
           alt="SevenCs"
