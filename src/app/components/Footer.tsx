@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       {/* Contact Section */}
-      <section className="px-[13%] py-12 bg-teaGreen">
+      <section className="px-[13%] py-12 text-nightRider bg-teaGreen">
         <div className="grid grid-rows-1 grid-cols-2 align-center">
           <h1 className="text-[6rem] font-bold">{intl("footer.shallWe")}</h1>
           <div className="align-center">

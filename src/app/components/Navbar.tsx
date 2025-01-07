@@ -26,19 +26,28 @@ const NavBar = () => {
 
   return (
     <>
-      <div
-        role="logo"
+      <a
+        href={PathConstants.home.root.path}
         className="cursor-pointer"
-        onClick={() => navigate(PathConstants.home.root.path)}
+        onClick={(e) => {
+          e.preventDefault();
+          navigate(PathConstants.home.root.path);
+        }}
       >
         <img src="/logo/mohammed.svg" alt="logo" />
-      </div>
+      </a>
       <div className="flex gap-8">
         <NavigationMenu>
           <NavigationMenuList>
             {navLinks.map((navLink) => (
               <NavigationMenuItem key={navLink.path}>
-                <NavigationMenuLink onClick={() => navigate(navLink.path)}>
+                <NavigationMenuLink
+                  href={navLink.path}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigate(navLink.path);
+                  }}
+                >
                   {navLink.name}
                 </NavigationMenuLink>
               </NavigationMenuItem>
