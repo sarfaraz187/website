@@ -7,11 +7,9 @@ const About = () => {
   const intl = useIntl();
   return (
     <>
-      <section role="about section" className="px-[15%] my-[5%]">
-        <h1 className="text-6xl text-nightRider font-bold mb-6">
-          I'm Mohammed Sarfaraz
-        </h1>
-      </section>
+      <h1 className="text-6xl text-nightRider font-bold px-[15%] my-[5%]">
+        I'm Mohammed Sarfaraz
+      </h1>
       <section className="pl-[15%] grid grid-cols-2">
         <div>
           <h1 className="text-xl font-medium tracking-wide my-6 text-nightRider">
@@ -55,6 +53,11 @@ const About = () => {
             {intl("about.introduction.expertise")}
           </p>
         </div>
+      </section>
+      <section className="px-[15%] my-[5%]">
+        <h1 className="flex justify-center text-4xl font-bold text-nightRider leading-tight mb-8">
+          {intl("about.projects.title")}
+        </h1>
       </section>
     </>
   );
