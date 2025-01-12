@@ -4,7 +4,7 @@ const Companies = () => {
   const intl = useIntl();
 
   return (
-    <section className="px-[15%] py-14" role="companies section">
+    <section className="px-[15%] py-14" role="companies">
       <h1 className="flex justify-center text-4xl font-bold text-nightRider pb-8">
         {intl("home.companies")}
       </h1>
