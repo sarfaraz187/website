@@ -16,7 +16,10 @@ const LanguageSwitcher = () => {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
+      <DropdownMenuTrigger
+        asChild
+        className="hover:underline decoration-nightRider decoration-2 underline-offset-8"
+      >
         <div className="flex gap-2 items-center cursor-pointer">
           <Globe className="w-4 h-4" />
           <span>{selectedLanguage.toUpperCase()}</span>

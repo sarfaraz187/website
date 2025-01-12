@@ -24,15 +24,20 @@ const NavBar = () => {
     },
   ];
 
+  const handleClicked = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    path: string
+  ) => {
+    e.preventDefault();
+    navigate(path);
+  };
+
   return (
     <>
       <a
         href={PathConstants.home.root.path}
         className="cursor-pointer"
-        onClick={(e) => {
-          e.preventDefault();
-          navigate(PathConstants.home.root.path);
-        }}
+        onClick={(e) => handleClicked(e, PathConstants.home.root.path)}
       >
         <img src="/logo/mohammed.svg" alt="logo" />
       </a>
@@ -40,13 +45,13 @@ const NavBar = () => {
         <NavigationMenu>
           <NavigationMenuList>
             {navLinks.map((navLink) => (
-              <NavigationMenuItem key={navLink.path}>
+              <NavigationMenuItem
+                key={navLink.path}
+                className="hover:underline decoration-nightRider decoration-2 underline-offset-8"
+              >
                 <NavigationMenuLink
                   href={navLink.path}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    navigate(navLink.path);
-                  }}
+                  onClick={(e) => handleClicked(e, navLink.path)}
                 >
                   {navLink.name}
                 </NavigationMenuLink>
