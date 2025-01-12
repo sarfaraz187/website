@@ -28,7 +28,9 @@ export default {
         144: "36rem",
       },
       borderRadius: {
-        "4xl": "2rem",
+        sm: "2rem",
+        xxl: "50px",
+        xl: "6rem",
       },
     },
     extend: {

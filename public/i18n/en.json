@@ -9,6 +9,9 @@
 
   "about.greeting": "Hi, I'm Mohammed Sarfaraz",
   "about.description": "I specialize in turning software concepts into reality, creating tailored solutions that meet unique needs.",
+
+  "about.introduction.heading": "Tech is my passion, but who am I really?",
+  "about.introduction.expertise": "I'm a passionate software developer dedicated to creating innovative solutions through clean, efficient code. My expertise lies in React, Javascript/Typescript, Node, and I'm driven by the challenge of solving complex problems through technology. I'm constantly learning and eager to contribute to projects that make a meaningful impact.",
   "footer.shallWe": "Shall we?",
   "footer.emailMe": "Email me",
   "footer.description": "Based in Germany, I work with English and German-speaking teams to create accessible digital experiences and adopt inclusive practices. Want to work together?"

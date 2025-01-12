@@ -5,6 +5,10 @@ import { ArrowRight } from "lucide-react";
 const Footer = () => {
   const intl = useIntl();
 
+  const handleEmailClick = () => {
+    window.location.href = "mailto:sarfarazmohammed187@gmail.com";
+  };
+
   return (
     <footer>
       {/* Contact Section */}
@@ -13,7 +17,7 @@ const Footer = () => {
           <h1 className="text-[6rem] font-bold">{intl("footer.shallWe")}</h1>
           <div className="align-center">
             <p className="text-lg mb-6">{intl("footer.description")}</p>
-            <Button variant="primary">
+            <Button variant="primary" onClick={handleEmailClick}>
               {intl("footer.emailMe")}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
