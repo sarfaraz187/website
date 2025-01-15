@@ -1,13 +1,25 @@
 import { Button } from "@src/app/components/ui/button";
 import useIntl from "@src/hooks/useIntl";
 import { ArrowRight } from "lucide-react";
+import { useEffect, useRef } from "react";
 
 const About = () => {
   console.log("About");
   const intl = useIntl();
+  const myRef = useRef<HTMLHeadingElement>(null);
+
+  useEffect(() => {
+    if (myRef.current) {
+      myRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <>
-      <h1 className="text-6xl text-nightRider font-bold px-[15%] my-[5%]">
+      <h1
+        ref={myRef}
+        className="text-6xl text-nightRider font-bold px-[15%] my-[5%]"
+      >
         I'm Mohammed Sarfaraz
       </h1>
       <section className="pl-[15%] grid grid-cols-2">
