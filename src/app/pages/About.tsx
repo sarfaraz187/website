@@ -1,29 +1,30 @@
 import { Button } from "@src/app/components/ui/button";
 import useIntl from "@src/hooks/useIntl";
 import { ArrowRight } from "lucide-react";
-import { useEffect, useRef } from "react";
+
+// import { useEffect, useRef } from "react";
 
 const About = () => {
   console.log("About");
   const intl = useIntl();
-  const myRef = useRef<HTMLHeadingElement>(null);
+  // const myRef = useRef<HTMLHeadingElement>(null);
 
-  useEffect(() => {
-    if (myRef.current) {
-      myRef.current.scrollIntoView({ behavior: "smooth" });
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (myRef.current) {
+  //     myRef.current.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // }, []);
 
   return (
     <>
       <h1
-        ref={myRef}
+        // ref={myRef}
         className="text-6xl text-nightRider font-bold px-[15%] my-[5%]"
       >
         I'm Mohammed Sarfaraz
       </h1>
-      <section className="pl-[15%] grid grid-cols-2">
-        <div>
+      <section className="mt-16 grid grid-cols-1 mx-[15%] md:mx-0 md:pl-[15%] md:grid-cols-2">
+        <div className="mb-12">
           <h1 className="text-xl font-medium tracking-wide my-6 text-nightRider">
             {intl("about.introduction.heading")}
           </h1>
@@ -45,16 +46,16 @@ const About = () => {
           <img
             src="/image/ms_02.png"
             alt="Mohammed Sarfaraz 02"
-            className="w-[80%] h-auto object-cover mb-128 rounded-l-[10rem]"
+            className="w-full rounded-lg md:w-[80%] h-auto object-cover mb-128 md:rounded-l-[10rem]"
           />
         </div>
       </section>
-      <section className="pr-[15%] grid grid-cols-2 mt-16">
+      <section className="mt-16 grid grid-cols-1 mx-[15%] md:mx-0 md:grid-cols-2">
         <div className="w-full h-full flex justify-start">
           <img
             src="/image/schloss_castle.png"
             alt="Schloss Castle"
-            className="w-[80%] object-cover rounded-r-[10rem]"
+            className="w-full rounded-lg md:w-[80%] h-auto object-cover mb-128 md:rounded-r-[10rem]"
           />
         </div>
         <div>
@@ -66,7 +67,7 @@ const About = () => {
           </p>
         </div>
       </section>
-      <section className="px-[15%] my-[5%]">
+      <section className="px-[15%] my-[5%] ">
         <h1 className="flex justify-center text-4xl font-bold text-nightRider leading-tight mb-8">
           {intl("about.projects.title")}
         </h1>

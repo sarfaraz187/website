@@ -9,13 +9,12 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          "text-nightRider bg-transparent border-2 border-nightRider font-semibold rounded-full hover:text-white transition-colors hover:bg-nightRider",
+          "text-nightRider bg-transparent border-2 border-nightRider font-semibold rounded-2xl hover:rounded-full hover:text-white transition-colors hover:bg-nightRider",
         outline:
           "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
         default: "bg-primary text-primary-foreground hover:bg-primary/90",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",

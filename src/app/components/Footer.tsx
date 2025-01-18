@@ -13,8 +13,8 @@ const Footer = () => {
     <footer>
       {/* Contact Section */}
       <section className="px-[13%] py-12 text-nightRider bg-teaGreen">
-        <div className="grid grid-rows-1 grid-cols-2 align-center">
-          <h1 className="text-[6rem] font-bold">{intl("footer.shallWe")}</h1>
+        <div className="grid grid-rows-1 md:grid-cols-2 align-center">
+          <h1 className="text-[6rem] font-bold ">{intl("footer.shallWe")}</h1>
           <div className="align-center">
             <p className="text-lg mb-6">{intl("footer.description")}</p>
             <Button variant="primary" onClick={handleEmailClick}>
