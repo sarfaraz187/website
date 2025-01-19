@@ -8,5 +8,5 @@ export type TFormatMessage = (
 
 export default (): TFormatMessage => {
   const { formatMessage: m } = useIntl();
-  return useCallback((id, values) => m({ id }, values), [m]);
+  return useCallback((id, values) => m({ id: id.toString() }, values), [m]);
 };
