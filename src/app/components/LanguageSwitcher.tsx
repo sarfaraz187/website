@@ -21,7 +21,7 @@ const LanguageSwitcher = () => {
         className="hover:underline decoration-nightRider decoration-2 underline-offset-8"
       >
         <div className="flex gap-2 items-center cursor-pointer">
-          <Globe className="w-4 h-4" />
+          <Globe size={20} strokeWidth={1.5} />
           <span>{selectedLanguage.toUpperCase()}</span>
         </div>
       </DropdownMenuTrigger>

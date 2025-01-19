@@ -19,8 +19,8 @@ const NavBar = () => {
       path: PathConstants.about.root.path,
     },
     {
-      name: intl("resources"),
-      path: PathConstants.resources.root.path,
+      name: intl("myWork"),
+      path: PathConstants.myWork.root.path,
     },
   ];
 

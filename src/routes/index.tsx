@@ -1,7 +1,7 @@
 import RootLayout from "@src/app/layout/RootLayout";
 import About from "@src/app/pages/About";
 import Home from "@src/app/pages/Home";
-import Resources from "@src/app/pages/Resources";
+import MyWork from "@src/app/pages/MyWork";
 import PathConstants from "@src/routes/PathConstants";
 import { createBrowserRouter, RouteObject } from "react-router";
 
@@ -24,8 +24,8 @@ const routes: RouteObject[] = [
   },
   {
     index: true,
-    path: PathConstants.resources.root.path,
-    element: <Resources />,
+    path: PathConstants.myWork.root.path,
+    element: <MyWork />,
   },
 ];
 

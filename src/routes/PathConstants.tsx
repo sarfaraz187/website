@@ -19,10 +19,10 @@ const PathConstants: TPathConstants = {
       label: "about",
     },
   },
-  resources: {
+  myWork: {
     root: {
-      path: "/resources",
-      label: "resources",
+      path: "/my-work",
+      label: "My Work",
     },
   },
 };

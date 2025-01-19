@@ -1,6 +1,6 @@
 import { Button } from "@src/app/components/ui/button";
 import useIntl from "@src/hooks/useIntl";
-import { ArrowRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 export const Intro = () => {
   const intl = useIntl();
@@ -17,8 +17,12 @@ export const Intro = () => {
           </p>
         </div>
         <Button variant="primary">
-          Start reading
-          <ArrowRight className="transition-transform group-hover:translate-x-2" />
+          <span>Start reading</span>
+          <ChevronRight
+            size={22}
+            strokeWidth={2.5}
+            className="transition-transform group-hover:translate-x-2"
+          />
         </Button>
       </div>
     </section>

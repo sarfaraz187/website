@@ -1,6 +1,6 @@
 import { Button } from "@src/app/components/ui/button";
 import useIntl from "@src/hooks/useIntl";
-import { ArrowRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 // import { useEffect, useRef } from "react";
 
@@ -23,6 +23,7 @@ const About = () => {
       >
         I'm Mohammed Sarfaraz
       </h1>
+
       <section className="mt-16 grid grid-cols-1 mx-[15%] md:mx-0 md:pl-[15%] md:grid-cols-2">
         <div className="mb-12">
           <h1 className="text-xl font-medium tracking-wide my-6 text-nightRider">
@@ -37,9 +38,13 @@ const About = () => {
           <p className="text-justify tracking-wide leading-8 text-lg mb-12">
             {intl("about.introduction.expertise")}
           </p>
-          <Button variant="primary" onClick={() => {}}>
-            {intl("about")}
-            <ArrowRight className="transition-transform group-hover:translate-x-2" />
+          <Button variant="primary">
+            <span>{intl("about")}</span>
+            <ChevronRight
+              size={22}
+              strokeWidth={2.5}
+              className="transition-transform group-hover:translate-x-2"
+            />
           </Button>
         </div>
         <div className="w-full h-full flex justify-end">
@@ -50,6 +55,7 @@ const About = () => {
           />
         </div>
       </section>
+
       <section className="mt-16 grid grid-cols-1 mx-[15%] md:mx-0 md:grid-cols-2">
         <div className="w-full h-full flex justify-start">
           <img
@@ -67,9 +73,10 @@ const About = () => {
           </p>
         </div>
       </section>
+
       <section className="px-[15%] my-[5%] ">
         <h1 className="flex justify-center text-4xl font-bold text-nightRider leading-tight mb-8">
-          {intl("about.projects.title")}
+          Academic Background
         </h1>
       </section>
     </>

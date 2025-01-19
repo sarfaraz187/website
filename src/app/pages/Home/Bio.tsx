@@ -1,7 +1,7 @@
 import { Button } from "@src/app/components/ui/button";
 import useIntl from "@src/hooks/useIntl";
 import PathConstants from "@src/routes/PathConstants";
-import { ArrowRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router";
 
 const Bio = () => {
@@ -28,8 +28,12 @@ const Bio = () => {
           variant="primary"
           onClick={() => navigate(PathConstants.about.root.path)}
         >
-          {intl("about")}
-          <ArrowRight className="transition-transform group-hover:translate-x-2" />
+          <span>{intl("about")}</span>
+          <ChevronRight
+            size={22}
+            strokeWidth={2.5}
+            className="transition-transform group-hover:translate-x-2"
+          />
         </Button>
       </div>
     </section>
