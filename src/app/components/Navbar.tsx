@@ -39,7 +39,10 @@ const NavBar = () => {
         className="cursor-pointer"
         onClick={(e) => handleClicked(e, PathConstants.home.root.path)}
       >
-        <img src="/logo/mohammed.svg" alt="logo" />
+        <img
+          src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/mohammed.svg`}
+          alt="logo"
+        />
       </a>
       <div className="flex gap-8">
         <NavigationMenu>

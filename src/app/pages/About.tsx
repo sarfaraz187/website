@@ -44,7 +44,7 @@ const About = () => {
         </div>
         <div className="w-full h-full flex justify-end">
           <img
-            src="/image/ms_02.png"
+            src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/ms_02.png`}
             alt="Mohammed Sarfaraz 02"
             className="w-full rounded-lg md:w-[80%] h-auto object-cover mb-128 md:rounded-l-[10rem]"
           />
@@ -53,7 +53,7 @@ const About = () => {
       <section className="mt-16 grid grid-cols-1 mx-[15%] md:mx-0 md:grid-cols-2">
         <div className="w-full h-full flex justify-start">
           <img
-            src="/image/schloss_castle.png"
+            src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/schloss_castle.png`}
             alt="Schloss Castle"
             className="w-full rounded-lg md:w-[80%] h-auto object-cover mb-128 md:rounded-r-[10rem]"
           />
