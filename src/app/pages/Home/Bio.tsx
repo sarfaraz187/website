@@ -13,7 +13,7 @@ const Bio = () => {
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-6 overflow-hidden max-w-[800px] mx-auto text-nightRider">
           <img
-            src="/image/ms_01.png"
+            src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/ms_01.png`}
             alt="Mohammed Sarfaraz"
             className="w-3/4 h-auto object-cover rounded-b-3xl mx-auto"
           />
