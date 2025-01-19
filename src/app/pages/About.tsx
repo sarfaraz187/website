@@ -39,7 +39,7 @@ const About = () => {
           </p>
           <Button variant="primary" onClick={() => {}}>
             {intl("about")}
-            <ArrowRight className="ml-2 h-5 w-5" />
+            <ArrowRight className="transition-transform group-hover:translate-x-2" />
           </Button>
         </div>
         <div className="w-full h-full flex justify-end">

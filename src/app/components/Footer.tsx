@@ -19,7 +19,7 @@ const Footer = () => {
             <p className="text-lg mb-6">{intl("footer.description")}</p>
             <Button variant="primary" onClick={handleEmailClick}>
               {intl("footer.emailMe")}
-              <ArrowRight className="ml-2 h-5 w-5" />
+              <ArrowRight className="transition-transform group-hover:translate-x-2" />
             </Button>
           </div>
         </div>

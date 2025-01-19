@@ -17,7 +17,8 @@ export const Intro = () => {
           </p>
         </div>
         <Button variant="primary">
-          Start reading <ArrowRight className="ml-2 h-5 w-5" />
+          Start reading
+          <ArrowRight className="transition-transform group-hover:translate-x-2" />
         </Button>
       </div>
     </section>

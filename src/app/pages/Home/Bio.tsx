@@ -29,7 +29,7 @@ const Bio = () => {
           onClick={() => navigate(PathConstants.about.root.path)}
         >
           {intl("about")}
-          <ArrowRight className="ml-2 h-5 w-5" />
+          <ArrowRight className="transition-transform group-hover:translate-x-2" />
         </Button>
       </div>
     </section>
