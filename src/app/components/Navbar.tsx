@@ -1,4 +1,5 @@
 import LanguageSwitcher from "@src/app/components/LanguageSwitcher";
+import ThemeSwitcher from "@src/app/components/ThemeSwitcher";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -44,7 +45,7 @@ const NavBar = () => {
           alt="logo"
         />
       </a>
-      <div className="flex gap-8">
+      <div className="flex gap-4">
         <NavigationMenu>
           <NavigationMenuList>
             {navLinks.map((navLink) => (
@@ -63,6 +64,7 @@ const NavBar = () => {
           </NavigationMenuList>
         </NavigationMenu>
         <LanguageSwitcher />
+        <ThemeSwitcher />
       </div>
     </>
   );

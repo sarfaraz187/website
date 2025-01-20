@@ -1,5 +1,6 @@
 import IntlProvider from "@src/i18n/IntlProvider";
 import { store } from "@src/store";
+import { ThemeProvider } from "@src/theme-provider";
 import { lazy, StrictMode } from "react";
 import { Provider } from "react-redux";
 
@@ -23,7 +24,9 @@ const Boot = () => {
     <StrictMode>
       <Provider store={store}>
         <IntlProvider>
-          <App />
+          <ThemeProvider storageKey="vite-ui-theme">
+            <App />
+          </ThemeProvider>
         </IntlProvider>
       </Provider>
     </StrictMode>

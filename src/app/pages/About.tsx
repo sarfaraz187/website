@@ -19,20 +19,20 @@ const About = () => {
     <>
       <h1
         // ref={myRef}
-        className="text-6xl text-nightRider font-bold px-[15%] my-[5%]"
+        className="text-6xl font-bold px-[15%] my-[5%]"
       >
         I'm Mohammed Sarfaraz
       </h1>
 
       <section className="mt-16 grid grid-cols-1 mx-[15%] md:mx-0 md:pl-[15%] md:grid-cols-2">
         <div className="mb-12">
-          <h1 className="text-xl font-medium tracking-wide my-6 text-nightRider">
+          <h1 className="text-xl font-medium tracking-wide my-6 ">
             {intl("about.introduction.heading")}
           </h1>
-          <p className="text-justify tracking-wide leading-8 text-lg indent-14 mb-16">
+          <p className="text-justify tracking-wide leading-8 text-lg indent-14 mb-16 ">
             {intl("about.introduction.expertise")}
           </p>
-          <h1 className="text-xl font-medium tracking-wide mb-6 text-nightRider">
+          <h1 className="text-xl font-medium tracking-wide mb-6">
             {intl("about.introduction.heading")}
           </h1>
           <p className="text-justify tracking-wide leading-8 text-lg mb-12">
@@ -65,7 +65,7 @@ const About = () => {
           />
         </div>
         <div>
-          <h1 className="text-xl font-medium tracking-wide my-6 text-nightRider">
+          <h1 className="text-xl font-medium tracking-wide my-6">
             {intl("about.introduction.heading")}
           </h1>
           <p className="text-justify tracking-wide leading-8 text-lg mb-16">
@@ -75,7 +75,7 @@ const About = () => {
       </section>
 
       <section className="px-[15%] my-[5%] ">
-        <h1 className="flex justify-center text-4xl font-bold text-nightRider leading-tight mb-8">
+        <h1 className="flex justify-center text-4xl font-bold leading-tight mb-8">
           Academic Background
         </h1>
       </section>

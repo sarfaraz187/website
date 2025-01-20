@@ -18,6 +18,7 @@ export default {
       clearDay: "#e3fff8",
       white: "#ffffff",
       black: "#000000",
+      raisinBlack: "#232323",
     },
     extend: {
       fontFamily: {

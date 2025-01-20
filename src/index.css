@@ -61,12 +61,11 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
-}
-@layer base {
+
   * {
     @apply border-border;
   }
   body {
-    @apply bg-seaShell text-foreground font-sans;
+    @apply bg-seaShell dark:bg-nightRider text-foreground font-sans text-nightRider dark:text-seaShell;
   }
 }
