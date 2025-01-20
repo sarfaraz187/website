@@ -1,6 +1,6 @@
 import { Button } from "@src/app/components/ui/button";
 import useIntl from "@src/hooks/useIntl";
-import { ArrowRight } from "lucide-react";
+import { Send } from "lucide-react";
 
 const Footer = () => {
   const intl = useIntl();
@@ -18,8 +18,12 @@ const Footer = () => {
           <div className="align-center">
             <p className="text-lg mb-6">{intl("footer.description")}</p>
             <Button variant="primary" onClick={handleEmailClick}>
-              {intl("footer.emailMe")}
-              <ArrowRight className="ml-2 h-5 w-5" />
+              <span>{intl("footer.emailMe")}</span>
+              <Send
+                size={22}
+                strokeWidth={1.75}
+                className="transition-transform group-hover:translate-x-2"
+              />
             </Button>
           </div>
         </div>

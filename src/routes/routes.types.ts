@@ -19,5 +19,5 @@ type TChildPaths = {
 export type TPathConstants = {
   home: TPath;
   about: TChildPaths;
-  resources: TPath;
+  myWork: TPath;
 };
