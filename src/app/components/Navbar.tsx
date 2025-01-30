@@ -20,8 +20,8 @@ const NavBar = () => {
       path: PathConstants.about.root.path,
     },
     {
-      name: intl("myWork"),
-      path: PathConstants.myWork.root.path,
+      name: intl("experience"),
+      path: PathConstants.experience.root.path,
     },
   ];
 

@@ -1,9 +1,9 @@
 import RootLayout from "@src/app/layout/RootLayout";
 import About from "@src/app/pages/About";
 import Home from "@src/app/pages/Home";
-import MyWork from "@src/app/pages/MyWork";
 import PathConstants from "@src/routes/PathConstants";
 import { createBrowserRouter, RouteObject } from "react-router";
+import Experience from "@src/app/pages/Experience";
 
 // Not needed keeping for reference
 //   {
@@ -24,8 +24,8 @@ const routes: RouteObject[] = [
   },
   {
     index: true,
-    path: PathConstants.myWork.root.path,
-    element: <MyWork />,
+    path: PathConstants.experience.root.path,
+    element: <Experience />,
   },
 ];
 
