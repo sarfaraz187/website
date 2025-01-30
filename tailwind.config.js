@@ -19,10 +19,16 @@ export default {
       white: "#ffffff",
       black: "#000000",
       raisinBlack: "#232323",
+      darkGreen: "#576136",
+      darkForest: "#263C32",
     },
     extend: {
       fontFamily: {
         sans: ["Lato", "sans-serif"], // font-sans base class font
+      },
+      backgroundImage: {
+        "gradient-dark":
+          "radial-gradient(circle, rgb(38, 60, 50) 0%, rgb(87, 97, 54) 100%)",
       },
       spacing: {
         128: "32rem",
