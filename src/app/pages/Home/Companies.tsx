@@ -13,21 +13,25 @@ const Companies = () => {
           src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/sevencs.jpeg`}
           alt="SevenCs"
           className="w-22 h-20 mb-6 lg:mb-0"
+          loading="lazy"
         />
         <img
           src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/ost.png`}
           alt="Onestoptransformation"
           className="w-20 h-20 mb-6 lg:mb-0"
+          loading="lazy"
         />
         <img
           src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/learnship.png`}
           alt="Learnship"
           className="w-44 h-22 mb-6 lg:mb-0"
+          loading="lazy"
         />
         <img
           src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/mako.png`}
           alt="Mako"
           className="w-25 h-20"
+          loading="lazy"
         />
       </div>
     </section>

@@ -16,6 +16,7 @@ const Bio = () => {
             src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/ms_01.png`}
             alt="Mohammed Sarfaraz"
             className="w-3/4 h-auto object-cover rounded-b-3xl mx-auto"
+            loading="lazy"
           />
         </div>
         <h1 className="text-4xl font-bold mb-4">{intl("about.greeting")}</h1>
