@@ -4,7 +4,10 @@ const Companies = () => {
   const intl = useIntl();
 
   return (
-    <section className="px-[15%] py-[4rem] md:py-[6rem]" role="companies">
+    <section
+      className="px-[15%] my-[3rem] md:my-[4rem]"
+      role="companies"
+    >
       <h1 className="flex justify-center text-[1.5rem] md:text-[2rem] mb-[4rem] md:mb-[6rem] font-bold  dark:text-white">
         {intl("home.companies")}
       </h1>
@@ -12,19 +15,19 @@ const Companies = () => {
         <img
           src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/sevencs.jpeg`}
           alt="SevenCs"
-          className="w-22 h-20 mb-6 lg:mb-0"
+          className="w-22 h-20 mb-12 md:mb-6 lg:mb-0"
           loading="lazy"
         />
         <img
           src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/ost.png`}
           alt="Onestoptransformation"
-          className="w-20 h-20 mb-6 lg:mb-0"
+          className="w-20 h-20 mb-12 md:mb-6 lg:mb-0"
           loading="lazy"
         />
         <img
           src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/learnship.png`}
           alt="Learnship"
-          className="w-44 h-22 mb-6 lg:mb-0"
+          className="w-44 h-22 mb-12 md:mb-6 lg:mb-0"
           loading="lazy"
         />
         <img

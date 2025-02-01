@@ -7,12 +7,19 @@
   "home.subtitle": "A design-minded front-end software engineer focused on building beautiful interfaces & experiences",
   "home.companies": "Successful companies, I've worked with",
 
-  "about.greeting": "Hi, I'm Mohammed Sarfaraz",
+  "about.title": "Hi, I'm Mohammed Sarfaraz",
+  "about.occupation": "I'm a full time software developer.",
+  "about.subTitle": "How I got till here!",
   "about.description": "I specialize in turning software concepts into reality, creating tailored solutions that meet unique needs.",
 
   "about.introduction.heading": "Tech is my passion, but who am I really?",
   "about.introduction.expertise": "I'm a passionate software developer dedicated to creating innovative solutions through clean, efficient code. My expertise lies in React, Javascript/Typescript, Node, and I'm driven by the challenge of solving complex problems through technology. I'm constantly learning and eager to contribute to projects that make a meaningful impact.",
   "about.projects.title": "More about my work",
+
+  "about.altText.myName": "Mohammed Sarfaraz",
+  "about.altText.castle": "Schloss Castle in Heidelberg, Germany",
+  "about.location" :"I am from Chennai, India, a city rich in culture and history. I completed my high schooling here, surrounded by its vibrant streets, diverse traditions, and the ever-present aroma of South Indian cuisine.",
+
   "footer.shallWe": "Shall we?",
   "footer.emailMe": "Email me",
   "footer.description": "Based in Germany, I work with English and German-speaking teams to create accessible digital experiences and adopt inclusive practices. Want to work together?"

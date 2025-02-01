@@ -15,7 +15,7 @@ const Footer = () => {
       {/* Contact Section */}
       <section className="px-[13%] py-[6rem] bg-teaGreen dark:bg-gray-800">
         <div className="grid grid-rows-1 md:grid-cols-2 align-center">
-          <h1 className="text-[6rem] font-bold dark:text-white">{intl("footer.shallWe")}</h1>
+          <h1 className="text-[4rem] md:text-[6rem] mb-6 md:mb-0 font-bold dark:text-white">{intl("footer.shallWe")}</h1>
           <div className="align-center">
             <p className="text-lg mb-6">{intl("footer.description")}</p>
             <Button variant="primary" onClick={handleEmailClick}>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <section className="px-[13%] my-[10rem]">
+      <section className="px-[13%] my-[6rem] md:my-[8rem]">
         <div className="flex gap-8">
           <UnderLineLink
             href="https://www.linkedin.com/in/mohammed-sarfaraz-g/"
