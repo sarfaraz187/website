@@ -1,3 +1,4 @@
+import UnderLineLink from "@src/app/components/UnderlineLink";
 import { Button } from "@src/app/components/ui/button";
 import useIntl from "@src/hooks/useIntl";
 import { Send } from "lucide-react";
@@ -29,37 +30,28 @@ const Footer = () => {
         </div>
       </section>
       <section className="px-[13%] py-12 bg-nightRider">
-        <div className="flex gap-5 justify-end md:block">
-          <Button
-            variant="link"
-            className="text-white"
-            onClick={() =>
-              window.open(
-                "https://www.linkedin.com/in/mohammed-sarfaraz-g/",
-                "_blank"
-              )
-            }
+        <div className="flex gap-12">
+          <UnderLineLink
+            href="https://www.linkedin.com/in/mohammed-sarfaraz-g/"
+            openInNewTab={true}
+            className="text-seaShell"
           >
             LinkedIn
-          </Button>
-          <Button
-            variant="link"
-            className="text-white"
-            onClick={() =>
-              window.open("https://www.instagram.com/safaraz_44/", "_blank")
-            }
+          </UnderLineLink>
+          <UnderLineLink
+            href="https://www.instagram.com/safaraz_44"
+            openInNewTab={true}
+            className="text-seaShell"
           >
             Instagram
-          </Button>
-          <Button
-            variant="link"
-            className="text-white"
-            onClick={() =>
-              window.open("https://github.com/sarfaraz187", "_blank")
-            }
+          </UnderLineLink>
+          <UnderLineLink
+            href="https://github.com/sarfaraz187"
+            openInNewTab={true}
+            className="text-seaShell"
           >
             Github
-          </Button>
+          </UnderLineLink>
         </div>
       </section>
     </footer>

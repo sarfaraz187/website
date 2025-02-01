@@ -26,7 +26,7 @@ const ScrollNavigation = () => {
       {showButton && (
         <Button
           variant={"rounded"}
-          className="fixed right-3 bottom-3 z-50 bg-teaGreen p-2 group"
+          className="fixed right-3 bottom-3 z-50 bg-teaGreen p-2 group animate-bounce"
           onClick={handleButtonClick}
         >
           <ChevronUp
