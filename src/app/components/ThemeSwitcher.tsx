@@ -10,9 +10,14 @@ const ThemeSwitcher = () => {
   };
 
   return (
-    <Button variant="outline" size="icon" onClick={handleBtnClick}>
-      <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-      <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+    <Button
+      variant="outline"
+      className="relative flex items-center justify-center overflow-hidden rounded-full border hover:border-nightRider hover:bg-seaShell p-2 w-10 h-10"
+      size="icon"
+      onClick={handleBtnClick}
+    >
+      <Sun className="absolute h-[1.2rem] w-[1.2rem] transition-transform duration-500 translate-x-0 scale-100 dark:-translate-x-8 dark:scale-0" />
+      <Moon className="absolute h-[1.2rem] w-[1.2rem] transition-transform duration-500 translate-x-8 scale-0 dark:translate-x-0 dark:scale-100" />
       <span className="sr-only">Toggle theme</span>
     </Button>
   );

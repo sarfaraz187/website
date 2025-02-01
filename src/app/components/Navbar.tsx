@@ -51,9 +51,10 @@ const NavBar = () => {
             {navLinks.map((navLink) => (
               <NavigationMenuItem
                 key={navLink.path}
-                className="hover:underline decoration-nightRider decoration-2 underline-offset-8"
+                className="relative flex items-center justify-center overflow-hidden"
               >
                 <NavigationMenuLink
+                  className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-nightRider after:transition-all after:duration-300 hover:after:w-full"
                   href={navLink.path}
                   onClick={(e) => handleClicked(e, navLink.path)}
                 >
