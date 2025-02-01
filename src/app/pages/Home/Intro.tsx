@@ -8,7 +8,7 @@ export const Intro = () => {
   return (
     <section className="flex items-center justify-center bg-teaGreen dark:bg-gray-800 py-[8rem]">
       <div className="max-w-3xl mx-auto text-center px-4">
-        <h1 className="text-[4rem] font-bold leading-tight mb-8 dark:text-white">
+        <h1 className="text-[3rem] md:[4rem] font-bold leading-tight mb-8 dark:text-white">
           {intl("home.title")}
         </h1>
         <div className="space-y-4 mb-8">

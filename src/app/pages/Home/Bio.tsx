@@ -15,7 +15,7 @@ const Bio = () => {
           <img
             src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/ms_01.png`}
             alt="Mohammed Sarfaraz"
-            className="w-3/4 h-auto object-cover rounded-b-3xl mx-auto"
+            className="w-11/12 md:w-3/4 h-auto object-cover rounded-b-3xl mx-auto"
             loading="lazy"
           />
         </div>
