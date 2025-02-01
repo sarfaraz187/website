@@ -19,12 +19,12 @@ const About = () => {
     <>
       <h1
         // ref={myRef}
-        className="text-6xl font-bold px-[15%] my-[5%]"
+        className="text-6xl font-bold dark:text-white px-[15%] my-[5rem]"
       >
         I'm Mohammed Sarfaraz
       </h1>
 
-      <section className="mt-16 grid grid-cols-1 mx-[15%] md:mx-0 md:pl-[15%] md:grid-cols-2">
+      <section className="mt-12 grid grid-cols-1 mx-[15%] md:mx-0 md:pl-[15%] md:grid-cols-2">
         <div className="mb-12">
           <h1 className="text-xl font-medium tracking-wide my-6 ">
             {intl("about.introduction.heading")}

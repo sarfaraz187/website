@@ -18,7 +18,7 @@ const LanguageSwitcher = () => {
     <DropdownMenu>
       <DropdownMenuTrigger
         asChild
-        className="border border-input bg-seaShell hover:bg-accent hover:text-accent-foreground dark:bg-nightRider dark:border-seaShell px-3 rounded-md"
+        className="hover:bg-seaShell hover:text-accent-foreground bg-seaShell  dark:bg-gray-900 px-3 rounded-md"
       >
         <div className="flex gap-2 items-center cursor-pointer">
           <Globe size={20} strokeWidth={1.5} />

@@ -21,6 +21,11 @@ export default {
       raisinBlack: "#232323",
       darkGreen: "#576136",
       darkForest: "#263C32",
+      gray: "#535661",
+      slate: "#a9adc1",
+      "gray-200": "#e6e9ee",
+      "gray-800": "#2e3039",
+      "gray-900": "#1f2028",
     },
     extend: {
       fontFamily: {

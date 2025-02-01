@@ -12,7 +12,7 @@ const ThemeSwitcher = () => {
   return (
     <Button
       variant="outline"
-      className="relative flex items-center justify-center overflow-hidden rounded-full border hover:border-nightRider hover:bg-seaShell p-2 w-10 h-10"
+      className="relative flex items-center justify-center overflow-hidden rounded-full border hover:border-nightRider hover:bg-seaShell p-2 w-10 h-10 dark:bg-gray-900"
       size="icon"
       onClick={handleBtnClick}
     >

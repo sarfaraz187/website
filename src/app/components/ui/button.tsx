@@ -16,7 +16,7 @@ const buttonVariants = cva(
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         rounded:
-          "text-nightRider border border-nightRider rounded-full hover:text-white transition-colors hover:bg-nightRider",
+          "text-nightRider border border-nightRider rounded-full",
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
