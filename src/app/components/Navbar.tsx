@@ -45,7 +45,7 @@ const NavBar = () => {
           alt="logo"
         />
       </a>
-      <div className="flex gap-4">
+      <div className="flex gap-5">
         <NavigationMenu>
           <NavigationMenuList>
             {navLinks.map((navLink) => (
@@ -54,7 +54,7 @@ const NavBar = () => {
                 className="relative flex items-center justify-center overflow-hidden"
               >
                 <NavigationMenuLink
-                  className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-nightRider after:transition-all after:duration-300 hover:after:w-full"
+                  className="relative pb-1 after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-nightRider after:dark:bg-slate after:transition-all after:duration-300 hover:after:w-full text-gray hover:text-black dark:text-slate hover:dark:text-white"
                   href={navLink.path}
                   onClick={(e) => handleClicked(e, navLink.path)}
                 >

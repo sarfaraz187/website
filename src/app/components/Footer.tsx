@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer>
       {/* Contact Section */}
-      <section className="px-[13%] py-12 text-nightRider bg-teaGreen">
+      <section className="px-[13%] py-12 bg-teaGreen dark:bg-gray-800">
         <div className="grid grid-rows-1 md:grid-cols-2 align-center">
           <h1 className="text-[6rem] font-bold ">{intl("footer.shallWe")}</h1>
           <div className="align-center">
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <section className="px-[13%] py-12 bg-nightRider">
+      <section className="px-[13%] py-12 ">
         <div className="flex gap-12">
           <UnderLineLink
             href="https://www.linkedin.com/in/mohammed-sarfaraz-g/"
