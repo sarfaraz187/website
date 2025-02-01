@@ -20,7 +20,7 @@ const Bio = () => {
           />
         </div>
         <h1 className="text-4xl font-bold mb-8 dark:text-white">
-          {intl("about.greeting")}
+          {intl("about.title")}
         </h1>
         <div className="mb-8 w-full flex justify-center">
           <p className="text-xl text-gray-600 w-9/12 ">

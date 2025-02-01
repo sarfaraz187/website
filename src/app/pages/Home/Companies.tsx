@@ -5,7 +5,7 @@ const Companies = () => {
 
   return (
     <section
-      className="px-[15%] my-[3rem] md:my-[4rem] md:py-[6rem]"
+      className="px-[15%] my-[3rem] md:my-[4rem]"
       role="companies"
     >
       <h1 className="flex justify-center text-[1.5rem] md:text-[2rem] mb-[4rem] md:mb-[6rem] font-bold  dark:text-white">

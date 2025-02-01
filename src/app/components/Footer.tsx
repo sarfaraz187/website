@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <section className="px-[13%] my-[6rem] md:my-[10rem]">
+      <section className="px-[13%] my-[6rem] md:my-[8rem]">
         <div className="flex gap-8">
           <UnderLineLink
             href="https://www.linkedin.com/in/mohammed-sarfaraz-g/"
