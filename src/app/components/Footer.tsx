@@ -13,9 +13,9 @@ const Footer = () => {
   return (
     <footer>
       {/* Contact Section */}
-      <section className="px-[13%] py-12 bg-teaGreen dark:bg-gray-800">
+      <section className="px-[13%] py-[6rem] bg-teaGreen dark:bg-gray-800">
         <div className="grid grid-rows-1 md:grid-cols-2 align-center">
-          <h1 className="text-[6rem] font-bold ">{intl("footer.shallWe")}</h1>
+          <h1 className="text-[6rem] font-bold dark:text-white">{intl("footer.shallWe")}</h1>
           <div className="align-center">
             <p className="text-lg mb-6">{intl("footer.description")}</p>
             <Button variant="primary" onClick={handleEmailClick}>
@@ -29,26 +29,23 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <section className="px-[13%] py-12 ">
-        <div className="flex gap-12">
+      <section className="px-[13%] my-[10rem]">
+        <div className="flex gap-8">
           <UnderLineLink
             href="https://www.linkedin.com/in/mohammed-sarfaraz-g/"
             openInNewTab={true}
-            className="text-seaShell"
           >
             LinkedIn
           </UnderLineLink>
           <UnderLineLink
             href="https://www.instagram.com/safaraz_44"
             openInNewTab={true}
-            className="text-seaShell"
           >
             Instagram
           </UnderLineLink>
           <UnderLineLink
             href="https://github.com/sarfaraz187"
             openInNewTab={true}
-            className="text-seaShell"
           >
             Github
           </UnderLineLink>

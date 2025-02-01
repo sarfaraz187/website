@@ -66,7 +66,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-seaShell dark:bg-gray-900 text-foreground font-sans text-nightRider dark:text-seaShell;
+    @apply bg-seaShell dark:bg-gray-900 text-foreground font-sans text-nightRider dark:text-slate;
   }
 }
 /* dark:bg-grey  */
