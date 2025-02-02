@@ -1,26 +1,41 @@
 {
   "home": "Startseite",
-  "about": "Über",
-  "experience": "Experience",
+  "about": "Über Mich",
+  "experience": "Erfahrung",
+  "readMore": "Mehr Lesen",
 
-  "home.title": "Das Internet ist für alle",
-  "home.subtitle": "Durch die Gestaltung barrierefreier Erlebnisse schaffen Sie eine inklusivere Welt. In meinem Blog teile ich einfache Tipps, um diese Vision zu verwirklichen.",
-  "home.companies": "Successful companies, I've worked with",
+  "home.title": "Das Internet ist für alle da",
+  "home.subtitle": "Ein designorientierter Frontend-Softwareentwickler mit Fokus auf der Entwicklung schöner Benutzeroberflächen & Erlebnisse",
+  "home.companies": "Erfolgreiche Unternehmen, mit denen ich zusammengearbeitet habe",
 
-  "about.title": "Hi, I'm Mohammed Sarfaraz",
-  "about.occupation": "I'm a full time software developer.",
-  "about.subTitle": "How I got till here!",
-  "about.description": "I specialize in turning software concepts into reality, creating tailored solutions that meet unique needs.",
+  "about.title": "Hallo, ich bin Mohammed Sarfaraz",
+  "about.occupation": "Ich bin Vollzeit-Softwareentwickler.",
+  "about.subTitle": "Wie ich bis hierher gekommen bin!",
+  "about.description": "Ich bin spezialisiert darauf, Softwarekonzepte in die Realität umzusetzen und maßgeschneiderte Lösungen zu entwickeln, die einzigartigen Anforderungen gerecht werden.",
 
-  "about.introduction.heading": "Tech is my passion, but who am I really?",
-  "about.introduction.expertise": "I'm a passionate software developer dedicated to creating innovative solutions through clean, efficient code. My expertise lies in React, Javascript/Typescript, Node, and I'm driven by the challenge of solving complex problems through technology. I'm constantly learning and eager to contribute to projects that make a meaningful impact.",
-  "about.projects.title": "More about my work",
+  "about.introduction.heading": "Technologie ist meine Leidenschaft, aber wer bin ich wirklich?",
+  "about.introduction.expertise": "Ich bin ein leidenschaftlicher Softwareentwickler, der sich der Entwicklung innovativer Lösungen durch sauberen, effizienten Code verschrieben hat. Meine Expertise liegt in React, Javascript/Typescript, Node, und ich werde von der Herausforderung angetrieben, komplexe Probleme durch Technologie zu lösen. Ich lerne ständig dazu und bin bestrebt, zu Projekten beizutragen, die eine bedeutsame Wirkung haben.",
+  "about.projects.title": "Mehr über meine Arbeit",
 
   "about.altText.myName": "Mohammed Sarfaraz",
-  "about.altText.castle": "Schloss Castle in Heidelberg, Germany",
-  "about.location": "I am from Chennai, India, a city rich in culture and history. I completed my high schooling here, surrounded by its vibrant streets, diverse traditions, and the ever-present aroma of South Indian cuisine.",
+  "about.altText.castle": "Schloss Heidelberg in Deutschland",
+  "about.location": "Ich komme aus Chennai, Indien, einer Stadt reich an Kultur und Geschichte. Ich habe hier meine Schulausbildung abgeschlossen, umgeben von lebhaften Straßen, vielfältigen Traditionen und dem allgegenwärtigen Duft südindischer Küche.",
+  "about.values.heading": "Hier sind einige Werte, die mir am Herzen liegen.",
+  "about.values.grateful": "Dankbar sein",
+  "about.values.gratefulPassage": "Man kann großen Erfolg erreichen und sein Handwerk meistern, aber ohne Dankbarkeit wird wahre Erfüllung immer unerreichbar erscheinen. Die Menschen, Erfahrungen und Lektionen auf dem Weg zu schätzen, bringt tiefere Freude und Bedeutung ins Leben. Bleiben Sie dankbar.",
+  "about.values.knowledge": "Wissen teilen",
+  "about.values.knowledgePassage": "Eines der wichtigsten Dinge, die mir beim Lernen geholfen haben, ist die Verpflichtung, mein Wissen mit anderen zu teilen. Ich bringe mich in Situationen, in denen ich gegenüber denen, die ich unterrichte, rechenschaftspflichtig sein muss, um meine Sache wirklich zu verstehen. Und als Ergebnis haben auch viele Menschen von mir gelernt.",
+  "about.values.collaborate": "Mit anderen zusammenarbeiten",
+  "about.values.collaboratePassage": "Ich habe mit vielen Entwicklern in meiner Rolle als Teammitglied in Unternehmen zusammengearbeitet, sowohl in der Open-Source-Community als auch in Firmen. Ich habe festgestellt, dass gute Zusammenarbeit mit anderen von unschätzbarem Wert ist. Ich lege Wert darauf, Anerkennung zu geben, wo sie angebracht ist, und die Erfolge anderer mit ihnen zu feiern. Gemeinsam können wir viel mehr erreichen als alleine.",
+  "about.picture.caption": "PS: Das Bild vom Schloss wurde nicht von mir aufgenommen. Danke an meinen Freund.",
 
-  "footer.shallWe": "Shall we?",
-  "footer.emailMe": "Email me",
-  "footer.description": "Based in Germany, I work with English and German-speaking teams to create accessible digital experiences and adopt inclusive practices. Want to work together?"
+  "about.academic.heading": "Mein akademischer Werdegang",
+  "about.academic.mastersCourseName": "Master in Softwareentwicklung für industrielle Anwendungen",
+  "about.academic.hofUniversity": "Hochschule für Angewandte Wissenschaften Hof (Oktober 2022 - Oktober 2024)",
+  "about.academic.bachelorCourseName": "Bachelor in Elektronik- und Kommunikationstechnik",
+  "about.academic.anandUniversity": "Anand Institute of Higher Technology (April 2014 - Oktober 2018)",
+
+  "footer.shallWe": "Sollen wir?",
+  "footer.emailMe": "Schreiben Sie mir",
+  "footer.description": "Mit Sitz in Deutschland arbeite ich mit englisch- und deutschsprachigen Teams zusammen, um barrierefreie digitale Erlebnisse zu schaffen und inklusive Praktiken zu übernehmen. Möchten Sie zusammenarbeiten?"
 }

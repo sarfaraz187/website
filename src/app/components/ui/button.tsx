@@ -9,14 +9,13 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          "text-nightRider bg-transparent border border-nightRider font-sem rounded-2xl hover:rounded-full hover:text-white transition-colors dark:bg-teaGreen hover:bg-nightRider hover:dark:bg-teaGreen  dark:hover:text-nightRider  group",
+          "text-nightRider bg-transparent border border-nightRider font-sem rounded-2xl hover:rounded-full hover:text-white dark:bg-teaGreen hover:bg-nightRider hover:dark:bg-teaGreen dark:hover:text-nightRider group",
         outline:
           "border border-input bg-seaShell hover:bg-accent hover:text-accent-foreground dark:bg-nightRider dark:border-seaShell",
         default: "",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-        rounded:
-          "text-nightRider border border-nightRider rounded-full",
+        rounded: "text-nightRider border border-nightRider rounded-full",
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",

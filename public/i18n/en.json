@@ -2,6 +2,7 @@
   "home": "Home",
   "about": "About Me",
   "experience": "Experience",
+  "readMore" : "Read More",
 
   "home.title": "Internet is for everyone",
   "home.subtitle": "A design-minded front-end software engineer focused on building beautiful interfaces & experiences",
@@ -18,7 +19,21 @@
 
   "about.altText.myName": "Mohammed Sarfaraz",
   "about.altText.castle": "Schloss Castle in Heidelberg, Germany",
-  "about.location" :"I am from Chennai, India, a city rich in culture and history. I completed my high schooling here, surrounded by its vibrant streets, diverse traditions, and the ever-present aroma of South Indian cuisine.",
+  "about.location": "I am from Chennai, India, a city rich in culture and history. I completed my high schooling here, surrounded by its vibrant streets, diverse traditions, and the ever-present aroma of South Indian cuisine.",
+  "about.values.heading": "Here are some of the values I hold dear to me.",
+  "about.values.grateful": "Being Grateful",
+  "about.values.gratefulPassage": "You can achieve great success and master your craft, but without gratitude, true fulfillment will always feel just out of reach. Appreciating the people, experiences, and lessons along the way brings deeper joy and meaning to life. Stay grateful.",
+  "about.values.knowledge": "Share Knowledge",
+  "about.values.knowledgePassage": "One of the biggest things that has helped me learn is by committing myself to sharing what I know with others. I force myself into situations where I have to be accountable to those I'm teaching to really know my stuff. And as a result, a lot of people have learned from me as well.",
+  "about.values.collaborate": "Collaborate with others",
+  "about.values.collaboratePassage": "I've worked with many developers in my role as a team member at companies I've worked at as well as in the open source community. I've found it to be invaluable to collaborate well with others. I value giving credit where it is due and celebrating the successes of others with them. We can accomplish much more together than separately.",
+  "about.picture.caption": "PS: The picture of the castle was not taken by me. Thanks to my friend.",
+
+  "about.academic.heading": "My Academic Background",
+  "about.academic.mastersCourseName": "Master in Software Engineering for Industrial Applications",
+  "about.academic.hofUniversity": "Hof University Of Applied Sciences (October 2022 - October 2024)",
+  "about.academic.bachelorCourseName": "Bachelor in Electronics and Communication Engineering",
+  "about.academic.anandUniversity": "Anand Institute of Higher Technology (April 2014 - October 2018)",
 
   "footer.shallWe": "Shall we?",
   "footer.emailMe": "Email me",

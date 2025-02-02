@@ -23,9 +23,13 @@ export default {
       darkForest: "#263C32",
       gray: "#535661",
       slate: "#a9adc1",
+      "gray-100": "#f7f7f7",
       "gray-200": "#e6e9ee",
       "gray-800": "#2e3039",
       "gray-900": "#1f2028",
+      "yellow-500": "#846901",
+      "green-500": "#30c85e",
+      "blue-500": "#4b96ff",
     },
     extend: {
       fontFamily: {
