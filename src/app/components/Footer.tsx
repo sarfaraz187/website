@@ -64,7 +64,7 @@ const Footer = () => {
             </h1>
             <div className="inline-flex flex-col">
               <UnderLineLink
-                href={import.meta.env.VITE_RESUME_SAS_URL}
+                href={`${import.meta.env.VITE_RESUME_SAS_URL}`}
                 openInNewTab={true}
               >
                 Resume
