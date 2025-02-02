@@ -100,7 +100,7 @@ const About = () => {
           </p>
         </CustomCard>
         <CustomCard
-          src={`http://aiht.ac.in/vendor/images/sym-logo.png`}
+          src={`${import.meta.env.VITE_BLOB_URL}portfolio-assets/anand_univerity_logo.png`}
           btnText={intl("readMore")}
           className="hover:border-blue-500"
         >
