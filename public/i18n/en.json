@@ -2,7 +2,7 @@
   "home": "Home",
   "about": "About Me",
   "experience": "Experience",
-  "readMore" : "Read More",
+  "readMore": "Read More",
 
   "home.title": "Internet is for everyone",
   "home.subtitle": "A design-minded front-end software engineer focused on building beautiful interfaces & experiences",
@@ -37,5 +37,7 @@
 
   "footer.shallWe": "Shall we?",
   "footer.emailMe": "Email me",
-  "footer.description": "Based in Germany, I work with English and German-speaking teams to create accessible digital experiences and adopt inclusive practices. Want to work together?"
+  "footer.description": "Based in Germany, I work with English and German-speaking teams to create accessible digital experiences and adopt inclusive practices. Want to work together?",
+  "footer.contact": "Contact Me",
+  "footer.general": "General"
 }
