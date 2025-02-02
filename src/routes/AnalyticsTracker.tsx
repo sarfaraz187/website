@@ -2,11 +2,9 @@ import { useEffect } from "react";
 import ReactGA from "react-ga4";
 import { useLocation } from "react-router";
 
-const isProduction =
-  window.location.hostname !== "localhost" &&
-  window.location.hostname !== "127.0.0.1";
+const isProduction = window.location.hostname !== "localhost";
 
-const GoogleAnalyticsTracker = () => {
+const AnalyticsTracker = () => {
   const location = useLocation();
 
   useEffect(() => {
@@ -26,4 +24,4 @@ const GoogleAnalyticsTracker = () => {
   return null;
 };
 
-export default GoogleAnalyticsTracker;
+export default AnalyticsTracker;

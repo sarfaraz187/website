@@ -1,9 +1,9 @@
 import RootLayout from "@src/app/layout/RootLayout";
 import About from "@src/app/pages/About";
+import Experience from "@src/app/pages/Experience";
 import Home from "@src/app/pages/Home";
 import PathConstants from "@src/routes/PathConstants";
 import { createBrowserRouter, RouteObject } from "react-router";
-import Experience from "@src/app/pages/Experience";
 
 // Not needed keeping for reference
 //   {

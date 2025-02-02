@@ -1,5 +1,4 @@
 import IntlProvider from "@src/i18n/IntlProvider";
-import GoogleAnalyticsTracker from "@src/routes/GoogleAnalyticsTracker";
 import { store } from "@src/store";
 import { ThemeProvider } from "@src/theme-provider";
 import { lazy, StrictMode } from "react";
@@ -26,7 +25,6 @@ const Boot = () => {
       <Provider store={store}>
         <IntlProvider>
           <ThemeProvider storageKey="vite-ui-theme">
-            <GoogleAnalyticsTracker />
             <App />
           </ThemeProvider>
         </IntlProvider>
