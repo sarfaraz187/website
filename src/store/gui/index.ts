@@ -4,7 +4,7 @@ import { ETheme, TInitialState } from "@src/store/gui/gui.types";
 
 const initialState: TInitialState = {
   theme: ETheme.Light,
-  lang: ELanguages.EN,
+  lang: navigator.language === "de" ? ELanguages.DE : ELanguages.EN,
 };
 
 export const guiSlice = createSlice({
