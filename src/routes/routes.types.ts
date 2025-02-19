@@ -19,5 +19,6 @@ type TChildPaths = {
 export type TPathConstants = {
   home: TPath;
   about: TChildPaths;
+  education: TPath;
   experience: TPath;
 };

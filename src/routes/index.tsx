@@ -1,5 +1,8 @@
 import RootLayout from "@src/app/layout/RootLayout";
 import About from "@src/app/pages/About";
+import EducationLayout from "@src/app/pages/Education";
+import AIHTUniversity from "@src/app/pages/Education/AIHTUniversity";
+import HofUniversity from "@src/app/pages/Education/HofUniversity";
 import Experience from "@src/app/pages/Experience";
 import Home from "@src/app/pages/Home";
 import PathConstants from "@src/routes/PathConstants";
@@ -21,6 +24,25 @@ const routes: RouteObject[] = [
     index: true,
     path: PathConstants.about.root.path,
     element: <About />,
+  },
+  {
+    index: true,
+    path: PathConstants.education.root.path,
+    element: <EducationLayout />,
+  },
+  {
+    path: PathConstants.education.root.path,
+    element: <EducationLayout />,
+    children: [
+      {
+        path: PathConstants.education.hof.path,
+        element: <HofUniversity />,
+      },
+      {
+        path: PathConstants.education.aiht.path,
+        element: <AIHTUniversity />,
+      },
+    ],
   },
   {
     index: true,

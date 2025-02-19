@@ -19,6 +19,20 @@ const PathConstants: TPathConstants = {
       label: "about",
     },
   },
+  education: {
+    root: {
+      path: "/education",
+      label: "Hof University of Applied Sciences",
+    },
+    hof: {
+      path: "/education/hof-university",
+      label: "Hof University of Applied Sciences",
+    },
+    aiht: {
+      path: "/education/anand-institute",
+      label: "Anand Institute of Higher Technology",
+    },
+  },
   experience: {
     root: {
       path: "/experience",

@@ -1,10 +1,10 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { ELanguages } from "@src/i18n/intl";
+import { getInitialLanguage } from "@src/lib/utils";
 import { ETheme, TInitialState } from "@src/store/gui/gui.types";
 
 const initialState: TInitialState = {
   theme: ETheme.Light,
-  lang: ELanguages.EN,
+  lang: getInitialLanguage(),
 };
 
 export const guiSlice = createSlice({
@@ -16,6 +16,7 @@ export const guiSlice = createSlice({
     },
     setLang: (state, action: PayloadAction<string>) => {
       state.lang = action.payload;
+      localStorage.setItem("language", action.payload);
     },
   },
   selectors: {
